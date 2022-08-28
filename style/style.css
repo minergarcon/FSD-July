@@ -1,14 +1,31 @@
 *{
-    margin: 0;
+    margin: 10;
     padding:0%;
 }
 
 body{
-    background-color: yellow;
+    background-color:lightcyan;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* header starts */
 header{
     background-color: aquamarine;
+    width: 100%;
+    text-align: center; 
+    
+    /* border: 2px solid red; */
+    margin:0px;padding: 0px;
+}
+
+.navigation a{
+    padding: 0px;
+    margin:0px;
+    text-decoration: none;
+    border: 2px solid blue;
+}
+
+.navigation a:hover{
+    background-color: blue;
+    color: white;
 }
